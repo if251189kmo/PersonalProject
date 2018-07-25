@@ -4,11 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Test</title>
+        <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
         <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,900" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/styles.css">
-                
+               
     </head>
     <body class="wrapper">
         
@@ -48,35 +49,31 @@
 
         <nav>
             <ul class="navigation">
-                <li class="menulogo">
-                    <a href="#home">Logo</a>
+                <li class="menulogo wow flipInX" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <a href="#home">Logo
+                    </a>
                 </li>
-                <li class="menuItem">
+                <li class="menuItem wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.3s">
                     <a href="#home">Главная</a>
                 </li>
-                <li class="menuItem">
+                <li class="menuItem wow flipInX" data-wow-duration="2s" data-wow-delay="0.3s">
                     <a href="#aboutUs">О нас</a>
                 </li>
-                <li class="menuItem">
+                <li class="menuItem wow flipInX" data-wow-duration="2.5s" data-wow-delay="0.3s">
                     <a href="#services">Услуги</a>
                 </li>
-                <li class="menuItem">
+                <li class="menuItem wow flipInX" data-wow-duration="3s" data-wow-delay="0.3s">
                     <a href="#ourWorks">Наши работы</a>
                 </li>
-                <li class="menuItem">
+                <li class="menuItem wow flipInX" data-wow-duration="3.5s" data-wow-delay="0.3s">
                     <a href="#contacts">Контакты</a>
                 </li>
             </ul>								
         </nav>
 
+        
 
-
-
-
-
-
-
-
+        
 
 
         
@@ -670,8 +667,12 @@
         <!--
         <script src="js/jquery-3.2.1.min.js"></script>
         -->    
-
         <script src="js/script.js"></script>
+        <script src="wow-animation/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        
         
         
     </body>
