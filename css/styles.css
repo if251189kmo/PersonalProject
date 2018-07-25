@@ -170,35 +170,59 @@ header {
   min-width: 220px;
   background: url("../img/orderheder.png") no-repeat center;
   background-size: 100% 100%;
+  position: relative;
+}
+
+.background .BoxItem .LogoBox1,
+.background .BoxItem .LogoBox2,
+.background .BoxItem .LogoBox3 {
+  position: absolute;
+  font-size: 3.5vw;
+  top: -16px;
+}
+
+.background .BoxItem .LogoBox1 {
+  right: 43%;
+}
+
+.background .BoxItem .LogoBox2 {
+  right: 42%;
+}
+
+.background .BoxItem .LogoBox3 {
+  right: 45%;
 }
 
 .background .BoxItem > div {
   color: #ffffff;
   font-size: 40px;
+  font-weight: bold;
   letter-spacing: 2.4px;
+  padding: 3.5vh 0 0.5vh 0;
 }
 
 .background .BoxItem > p {
   font-size: 18px;
   letter-spacing: 1.5px;
+  padding-bottom: 3vh;
 }
 
 /* Navigation */
 
 .navigation {
   display: flex;
-  background-color: yellow;
   min-height: 9vh;
+  border-bottom: 1.5px solid #85858E;
 }
 
 .navigation .menulogo {
-  background-color: green;
   flex-grow: 4;
 }
 
 .navigation .menuItem {
-  background-color: green;
   flex-grow: 1;
+  font-size: 1.5vw;
+  font-family: 'Gaegu', cursive;
 }
 
 .navigation .menulogo,
